@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab&family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+2&display=swap');
+
+.dom{
+    background-color: rgb(183, 221, 255);
+}
+.clearButton{
+    font-family: 'Raleway', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: 1px solid;
+    border-radius: 4px;
+}
+.clearButton:hover{
+    font-family: 'Raleway', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: 1px solid;
+    border-radius: 4px;
+    color: rgb(255, 0, 0);
+}
+.plusButton{
+    font-family: 'Raleway', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: 1px solid;
+    border-radius: 4px;
+}
+.plusButton:hover{
+    font-family: 'Raleway', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: 1px solid;
+    border-radius: 4px;
+    color: rgb(0, 179, 39);
+}
+.minusButton{
+    font-family: 'Raleway', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: 1px solid;
+    border-radius: 4px;
+}
+.minusButton:hover{
+    font-family: 'Raleway', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: 1px solid;
+    border-radius: 4px;
+    color: rgb(153, 0, 255);
+}
+.timesButton{
+    font-family: 'Raleway', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: 1px solid;
+    border-radius: 4px;
+}
+.timesButton:hover{
+    font-family: 'Raleway', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: 1px solid;
+    border-radius: 4px;
+    color: blue;
+}
+.dividedButton{
+    font-family: 'Raleway', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: 1px solid;
+    border-radius: 4px;
+}
+.dividedButton:hover{
+    font-family: 'Raleway', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: 1px solid;
+    border-radius: 4px;
+    color: rgb(255, 115, 0);
+}
+.plusText{
+    font-family: 'M PLUS 2', sans-serif;
+}
+.minusText{
+    font-family: 'M PLUS 2', sans-serif;
+}
+.timesText{
+    font-family: 'M PLUS 2', sans-serif;
+}
+.dividedText{
+    font-family: 'M PLUS 2', sans-serif;
+}
+.placeholderText1{
+    font-family: 'Montagu Slab', serif;
+    border: 2px solid;
+    border-color:rgb(41, 41, 255) ;
+    border-radius: 7px;
+    padding: 5px;
+}
+.placeholderText2{
+    font-family: 'Montagu Slab', serif;
+    border: 2px solid;
+    border-color:rgb(41, 41, 255) ;
+    border-radius: 7px;
+    padding: 5px;
+}
+#resultadoSuma{
+    font-weight: bold;
+}
+#resultadoResta{
+    font-weight: bold;
+}
+#resultadoMultiplicacion{
+    font-weight: bold;
+}
+#resultadoDivision{
+    font-weight: bold;
+}

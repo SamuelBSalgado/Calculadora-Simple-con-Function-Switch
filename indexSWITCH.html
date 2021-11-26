@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora simple con SWITCH</title>
+    <script src="calculadoraSWITCH.js"></script>
+    <link rel="stylesheet" href="CalcuSWITCHstyle.css">
+</head>
+<body class="dom">
+    <form id="formulario">
+        <input class="placeholderText1" type="number" id="numero1" placeholder="Introduce un número">
+        <input class="placeholderText2" type="number" id="numero2" placeholder="Introduce un número"><br><br>
+        <input class="clearButton" type="button" value="Limpiar" onclick= hacerOperacion(5)>
+        <input class="plusButton" type="button" value="Sumar" onclick= hacerOperacion(1)>
+        <input class="minusButton" type="button" value="Restar" onclick= hacerOperacion(2)>
+        <input class="timesButton" type="button" value="Multiplicar" onclick= hacerOperacion(3)>
+        <input class="dividedButton" type="button" value="Dividir" onclick= hacerOperacion(4)>
+        <p class="plusText">El resultado de la suma es: <span id="resultadoSuma"></span></p>
+        <p class="minusText">El resultado de la resta es: <span id="resultadoResta"></span></p>
+        <p class="timesText">El resultado de la multiplicación es: <span id="resultadoMultiplicacion"></span></p>
+        <p class="dividedText">El resultado de la división es: <span id="resultadoDivision"></span></p>
+    </form>
+</body>
+</html>
